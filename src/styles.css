@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@1,500&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'DM Mono', monospace;
+}
+
+body{
+  background-color: #22292e;
+  color:  white;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(249, 249, 249);
+}
+
+.nav-link {
+    color: #233136;
+    margin: 16px 20px;
+}
+
+.nav-link:hover {
+  background-color: rgb(248, 88, 88);
+}
+
+.activeLink {
+  background-color: rgb(248, 88, 88);
+}
+
+.eduText {
+  margin: 25px auto;
+  width: 70%;
+  text-align: center;
+}
+
+.imgContainer {
+  margin: 30px 0;
+}
+
+.title {
+  margin-bottom: 15px;
+  font-size: 35px;
+}
+
+.subTitle {
+  margin: 15px 0;
+  font-size: 20px;
+}
+
+ul, ol {
+  display: inline-block;
+  text-align:left;
+}
+
+.highlight {
+  color: rgb(248, 88, 88);
+}
+
+.centre {
+  margin-left: 157px;
+}
+
+.canvas {
+  margin-top: 25px;
+  background-color: white;
+}
+
+.generateBtn {
+  display: inline-block;
+  margin: 5px;
+  width: 180px;
+  color: black;
+  border-radius: 20px;
+  background-color: whitesmoke;
+}
+
+.generateBtn:hover {
+  cursor: pointer;
+  background-color: rgb(248, 88, 88);
+}
+
+.canvasContainer {
+  margin: auto;
+  width: 600px;
+  height: 500px;
+}
+
+.bigMarg {
+  margin-top: 150px;
+}
+
+.sideInput {
+  width: 70px;
+  margin-right: 10px;
+}
+
+.sp {
+  margin-right: 10px;
+}
+
+.instructionContainer {
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 45%;
+  background-color: rgb(248, 88, 88);
+}
+
+.instructionBtn {
+  font-size: 17px;
+  padding: 1px;
+  border: none;
+}
+
+.instructionBtn:hover {
+    background-color: #22292e;
+    color: white;
+}
+
+.left {
+  padding: 3px;
+  text-align: center;	
+}
+
+.flex {
+  display: flex;
+  justify-content: left;
+}
+
+.inst {
+  margin: 0 auto;
+  border-radius: 3px;
+  background-color: whitesmoke;
+  width: 45%;
+  color: black;
+}
+
+.btn {
+  margin-top: 15px;
+}
+
+.btn:hover {
+  background-color: rgb(248, 88, 88);
+}
+
+.radioContainer {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.errorText {
+  display: block;
+  color: red;
+  margin-top: 20px;
+}
+
+.testBtn1 {
+  margin: auto;
+  margin-top: 20px;
+  background-color: whitesmoke;
+  width: 20%;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.testBtn {
+  position: relative;
+  margin: auto;
+  background-color: whitesmoke;
+  width: 20%;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.nextBtn {
+  margin: auto;
+  margin-top: 30px;
+  background-color: whitesmoke;
+  width: 20%;
+  padding: 10px;
+  border-radius: 10px;
+  color: black;
+}
+
+.nextBtn:disabled, .generateBtn:disabled {
+  background-color: gray;
+}
+
+.testBtn:hover, .testBtn1:hover, .nextBtn:hover {
+  background-color: rgb(248, 88, 88);
+  cursor: pointer;
+}
+
+.correct {
+  margin: 20px auto;
+  background-color: rgb(15, 143, 15);
+  width: fit-content;
+}
+
+.wrong {
+  margin: 20px auto;
+  margin-bottom: 40px;
+  background-color: rgb(248, 88, 88);
+  width: fit-content;
+}
+
+.resultContainer {
+  text-align: center;
+}
+
+.taskText {
+  width: 500px;
+  margin: 20px 10px;
+}
+
+.dragContainer {
+  padding: 10px;
+  background-color: whitesmoke;
+  border-radius: 3px;
+}
+
+.dragItem {
+  background-color: rgb(248, 88, 88);
+  margin: 30px 20px;
+  padding: 15px;
+  border-radius: 5px;
+  border: 3px solid #808080;
+}
+
+.dragItem:hover {
+  cursor: pointer;
+  background-color: red;
+  box-shadow: 0px 0px 13px 3px rgba(128,128,128,0.67);
+}
+
+.orderContainer {
+  background-color: "white";
+  color:"black"; 
+  margin: "20px";
+}
+
